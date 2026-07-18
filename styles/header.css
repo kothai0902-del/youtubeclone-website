@@ -1,0 +1,159 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  height: 55px;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: white;
+  border-bottom: 1px solid rgb(205, 205, 205);
+  z-index: 1;
+}
+.left {
+  display: flex;
+  align-items: center;
+}
+.hamburger-menu {
+  height: 25px;
+  padding-left: 22px;
+  padding-right: 24px;
+}
+.youtube-logo {
+  height: 20px;
+}
+.right {
+  display: flex;
+  align-items: center;
+}
+.middle {
+  flex: 1;
+  max-width: 500px;
+  margin-left: 70px;
+  margin-right: 36px;
+  display: flex;
+  align-items: center;
+}
+.p {
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  padding: 8px 8px 8px 8px;
+}
+.S {
+  padding-top: 8px;
+  height: 25px;
+}
+.voice-search-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: none;
+  padding: 7px 7px 7px 7px;
+}
+.search-box {
+  flex: 1;
+  height: 37px;
+  border-radius: 3px;
+  border: 1px solid rgb(217, 217, 217);
+  box-shadow: inset 1px 3px 2px rgba(0, 0, 0, 0.05);
+  width: 0;
+  padding-left: 10px;
+  font-size: 14px;
+}
+.search-box::placeholder {
+  font-size: 15px;
+}
+.search-box:focus {
+  border: 1px solid rgb(36, 135, 241);
+  outline: none;
+}
+
+.Sw {
+  width: 65px;
+  height: 41px;
+  border: 1px solid rgb(217, 217, 217);
+  margin-left: -3px;
+  margin-right: 10px;
+  border-radius: 2px;
+}
+.Sw,
+.voice-search-icon,
+.create-tooltip,
+.qw {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.Sw .toolkit,
+.voice-search-icon .toolkit,
+.create-tooltip .toolkit,
+.qw .toolkit {
+  position: absolute;
+  background-color: gray;
+  color: white;
+  padding: 5px 5px 5px 5px;
+  border-radius: 2px;
+
+  top: 55px;
+  opacity: 0;
+  pointer-events: none;
+  white-space: nowrap;
+  font-size: 12px;
+}
+.Sw:hover .toolkit,
+.voice-search-icon:hover .toolkit,
+.create-tooltip:hover .toolkit,
+.qw:hover .toolkit {
+  opacity: 1;
+}
+.ico {
+  height: 23px;
+}
+.sidebarss {
+  display: flex;
+  background-color: white;
+  width: 70px;
+  position: fixed;
+  left: 0;
+  top: 55px;
+  bottom: 0;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  z-index: 2;
+}
+
+.home {
+  display: flex;
+  flex-direction: column;
+  height: 70px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.home:hover {
+  background-color: rgb(238, 238, 238);
+}
+.sidetxt {
+  font-size: 10px;
+  padding-top: 4px;
+}
+.qw {
+  position: relative;
+}
+.notify {
+  position: absolute;
+  background-color: rgb(200, 0, 0);
+  color: white;
+  right: 20px;
+  top: -3px;
+  padding: 2px 5px 2px 5px;
+  font-size: 11px;
+  border-radius: 11px;
+}
+.rightico {
+  height: 23px;
+  padding-right: 30px;
+}
